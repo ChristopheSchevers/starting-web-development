@@ -30,6 +30,10 @@ p{
     text-align: justify;
 }
 
+a {
+    text-decoration: none;    
+}
+
 
 /* Bio */
 
@@ -46,7 +50,7 @@ p{
 }
 
 h1 {
-    color: #dd0000;
+    color: #e04248;
     font-weight: bolder;
     margin-top: 20px;
 }
@@ -56,14 +60,17 @@ h2 {
     font-weight: 600;
 }
 
-a {
+.bio a {
     color: #eee;
-    text-decoration: none;
     font-weight: bolder;
-    background-color: #dd0000;
+    background-color: #e04248;
     padding: 10px;
     margin: 10px;
     border-radius: 4px;
+}
+
+.bio a:hover {
+    background-color: #ee0000;
 }
 
 
@@ -86,6 +93,10 @@ a {
 
 i {
     margin: 10px;
+}
+
+.social a *:hover {
+    color: #333; 
 }
 
 
